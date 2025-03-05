@@ -29,10 +29,10 @@ export { CodeSandboxDarkIcon, CodeSandboxLightIcon };
 import { CodaIcon } from "./companies/coda";
 export { CodaIcon };
 import {
-  CrowdDotDevLightIcon,
   CrowdDotDevDarkIcon,
+  CrowdDotDevLightIcon,
 } from "./companies/crowddotdev";
-export { CrowdDotDevLightIcon, CrowdDotDevDarkIcon };
+export { CrowdDotDevDarkIcon, CrowdDotDevLightIcon };
 import { DeepLDarkIcon, DeepLLightIcon } from "./companies/deepl";
 export { DeepLDarkIcon, DeepLLightIcon };
 import { DigitalOceanIcon } from "./companies/digitalocean";
@@ -108,8 +108,8 @@ import { NovuIcon } from "./companies/novu";
 export { NovuIcon };
 import { OpenAIDarkIcon, OpenAILightIcon } from "./companies/openai";
 export { OpenAIDarkIcon, OpenAILightIcon };
-import { PlainLightIcon, PlainDarkIcon } from "./companies/plain";
-export { PlainLightIcon, PlainDarkIcon };
+import { PlainDarkIcon, PlainLightIcon } from "./companies/plain";
+export { PlainDarkIcon, PlainLightIcon };
 import { PosthogDarkIcon, PosthogLightIcon } from "./companies/posthog";
 export { PosthogDarkIcon, PosthogLightIcon };
 import { ReactIcon } from "./companies/react";
@@ -125,8 +125,8 @@ import { ReflexDarkIcon, ReflexLightIcon } from "./companies/reflex";
 export { ReflexDarkIcon, ReflexLightIcon };
 import { ReplicateDarkIcon, ReplicateLightIcon } from "./companies/replicate";
 export { ReplicateDarkIcon, ReplicateLightIcon };
-import { ResendLightIcon, ResendDarkIcon } from "./companies/resend";
-export { ResendLightIcon, ResendDarkIcon };
+import { ResendDarkIcon, ResendLightIcon } from "./companies/resend";
+export { ResendDarkIcon, ResendLightIcon };
 import { SalesforceIcon } from "./companies/salesforce";
 export { SalesforceIcon };
 import { SegmentIcon } from "./companies/segment";
@@ -149,8 +149,8 @@ import { SupabaseIcon } from "./companies/supabase";
 export { SupabaseIcon };
 import { SvixIcon } from "./companies/svix";
 export { SvixIcon };
-import { TldrawLightIcon, TldrawDarkIcon } from "./companies/tldraw";
-export { TldrawLightIcon, TldrawDarkIcon };
+import { TldrawDarkIcon, TldrawLightIcon } from "./companies/tldraw";
+export { TldrawDarkIcon, TldrawLightIcon };
 import { TrelloIcon } from "./companies/trello";
 export { TrelloIcon };
 import {
@@ -211,10 +211,19 @@ export { GoogleSheetsIcon };
 export { XDarkIcon, XLightIcon };
 import { ZapierIcon } from "./companies/zapier";
 export { ZapierIcon };
-import { SquareLightIcon, SquareDarkIcon } from "./companies/square";
-export { SquareLightIcon, SquareDarkIcon };
+import { SquareDarkIcon, SquareLightIcon } from "./companies/square";
+export { SquareDarkIcon, SquareLightIcon };
 import { ZBDDarkIcon, ZBDLightIcon } from "./companies/zbd";
-export { ZBDDarkIcon, ZBDLightIcon };
+import { PrismaDarkIcon, PrismaLightIcon } from "./companies/prisma";
+export { PrismaDarkIcon, PrismaLightIcon };
+import { PythonLogo } from "./companies/python";
+export { PythonLogo };
+import { EsbuildIcon } from "./companies/esbuild";
+export { EsbuildIcon };
+import { PuppeteerIcon } from "./companies/puppeteer";
+export { PuppeteerIcon };
+import { FfmpegIcon } from "./companies/ffmpeg";
+export { FfmpegIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
@@ -259,9 +268,11 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   dropbox: { all: DropBoxIcon },
+  esbuild: { all: EsbuildIcon },
   express: { light: ExpressLightIcon, dark: ExpressDarkIcon, default: "dark" },
   facebook: { all: FacebookIcon },
   fastify: { light: FastifyLightIcon, dark: FastifyDarkIcon, default: "dark" },
+  ffmpeg: { all: FfmpegIcon },
   flickr: { all: FlickrIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   giphy: { all: GiphyIcon },
@@ -305,6 +316,9 @@ export const icons: Record<string, Icon> = {
   pagerduty: { all: PagerDutyIcon },
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
   plain: { light: PlainLightIcon, dark: PlainDarkIcon, default: "dark" },
+  prisma: { light: PrismaLightIcon, dark: PrismaDarkIcon, default: "dark" },
+  python: { all: PythonLogo },
+  puppeteer: { all: PuppeteerIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   raycast: { all: RaycastIcon },
   react: { all: ReactIcon },
